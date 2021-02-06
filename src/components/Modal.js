@@ -13,7 +13,7 @@ const Modal = (props) =>{
       
 
       <div className="img-div">
-      <img className="modalDogImage" src={dogData.image.url}/>
+      <img className="modalDogImage" alt="dogimages" src={dogData.image.url}/>
       </div>
       
       <div className="name-nd-abut-div">
