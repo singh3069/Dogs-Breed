@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 .modalContainer{
   display:flex;
   width:60vw;
@@ -11,6 +13,7 @@
   box-shadow: 2px 2px 5px rgb(63, 62, 62);
   border-radius: 15px;
   gap:15px;
+  font-family: 'Sriracha', cursive;
 }
 
 
