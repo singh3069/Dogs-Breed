@@ -1,51 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 
 body {
-  /* background-color: rgb(252, 243, 209); */
-  /* background-image: url(./images/dog-paw-print.jpg); */
-  background: linear-gradient(rgba(255, 255, 255, 0.150), rgba(255, 255, 255, 0.150)), url("./images/dog\ pic.jpeg") no-repeat fixed 0px /cover ;
+  /* background: linear-gradient(
+      rgba(255, 255, 255, 0.100),
+      rgba(255, 255, 255, 0.100)),url("./images/dog\ pic.jpeg") no-repeat fixed 0px / cover;*/
+  background: url("./images/dog\ pic.jpeg") no-repeat fixed 0px / cover;
 
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
 }
 
 .nameImg-div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-right: 69px;
 }
 
 .images {
-  height: 200px;
+  height: 180px;
   width: 180px;
-  border-radius: 15px;
+  border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 2px 2px 5px black;
-  transform: scale(1);
-  transition: transform 0.5s, opacity 0.5s;
-  
 }
 
-.images:hover{
- transform: scale(1.03);
-  opacity: 1;
+.content-div {
+  height: 300px;
+  width: 225px;
+  padding: 10px 20px;
+}
+
+.pic-name-div {
+  height: 280px;
+  width: 220px;
+  background-color: rgba(255, 228, 196, 0.479);
+  box-sizing: border-box;
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+  padding-top: 10px;
+}
+
+.pic-name-div:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
   cursor: pointer;
   box-sizing: border-box;
   border-radius: 10px;
   border: black solid 1px;
 }
 
-.content-div {
-  height: 300px;
-  width: 200px;
-  padding-left: 90px;
-  padding-top: 50px;
-}
-
 .name {
   padding-top: 0;
-  margin-top: -25px;
-  color: rgb(240, 243, 67);
+  margin-top: 0px;
+  /* color: rgb(247, 240, 232); */
   font-size: 22px;
 }
 
@@ -53,7 +59,7 @@ body {
   display: flex;
   width: 100%;
   text-align: center;
-  color: rgb(240, 243, 67);
+  color: rgb(250, 223, 193);
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
@@ -63,7 +69,6 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   /* background-color: rgba(202, 67, 14, 0.384); */
-
 }
 
 .nav-bar h1 {
