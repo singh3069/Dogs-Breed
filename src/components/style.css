@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(252, 243, 209);
+}
+
+.nameImg-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.images {
+  height: 200px;
+  width: 180px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+  
+}
+
+.images:hover{
+ transform: scale(1.03);
+  opacity: 1;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.content-div {
+  height: 300px;
+  width: 200px;
+  padding-left: 90px;
+  padding-top: 50px;
+}
+
+.name {
+  padding-top: 0;
+  margin-top: -25px;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: solid black 2px;
+  text-transform: uppercase;
+}
+
+.nav-bar h1 {
+  font-size: 45px;
+}
