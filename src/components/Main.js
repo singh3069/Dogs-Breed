@@ -31,7 +31,7 @@ function Main() {
     return (
         
         <div>
-            <div className="nav-bar"><u><h1>Know About Your Fav Pet(🐕)</h1></u></div>
+            <div className="nav-bar"><u><h1>Know About Your Fav. Pet(🐕)</h1></u></div>
 
             <div className="nameImg-div">
             

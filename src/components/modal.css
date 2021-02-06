@@ -5,8 +5,8 @@
   width:60vw;
   height:70vh;
   border:1px solid #222;
-  background-color:cornsilk;
-  margin:55px auto;
+  background-color: #fec5bb;
+  margin:105px auto;
   position: fixed;
   top:10%;
   left:20%;
@@ -33,6 +33,8 @@
   height: 300px;
   box-sizing: border-box;
   border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+
 }
 
 @-webkit-keyframes pop-in {
@@ -59,9 +61,15 @@
     text-align: left;
     margin-top: 45px;
     font-size: 20px;
+    
+}
+
+.abut-div p b{
+    color: rgb(161, 163, 4);
 }
 
 .name-div{
+    color: rgb(161, 163, 4);
     justify-content: center;
     align-items: center;
     text-align: center;

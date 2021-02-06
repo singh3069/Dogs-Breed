@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body {
-  background-color: rgb(252, 243, 209);
+  /* background-color: rgb(252, 243, 209); */
+  /* background-image: url(./images/dog-paw-print.jpg); */
+  background: linear-gradient(rgba(255, 255, 255, 0.150), rgba(255, 255, 255, 0.150)), url("./images/dog\ pic.jpeg") no-repeat fixed 0px /cover ;
+
   font-family: 'Sriracha', cursive;
 }
 
@@ -9,7 +12,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-right: 40px;
+  padding-right: 69px;
 }
 
 .images {
@@ -17,6 +20,7 @@ body {
   width: 180px;
   border-radius: 15px;
   box-sizing: border-box;
+  box-shadow: 2px 2px 5px black;
   transform: scale(1);
   transition: transform 0.5s, opacity 0.5s;
   
@@ -41,19 +45,27 @@ body {
 .name {
   padding-top: 0;
   margin-top: -25px;
+  color: rgb(240, 243, 67);
+  font-size: 22px;
 }
 
 .nav-bar {
   display: flex;
   width: 100%;
   text-align: center;
+  color: rgb(240, 243, 67);
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: solid black 2px;
+  box-shadow: 2px 2px 5px black;
+  border-bottom: solid black 3px;
   text-transform: uppercase;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* background-color: rgba(202, 67, 14, 0.384); */
+
 }
 
 .nav-bar h1 {
-  font-size: 45px;
+  font-size: 42px;
 }
